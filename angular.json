@@ -4,14 +4,6 @@
   "newProjectRoot": "projects",
   "projects": {
     "book-monkey": {
-      "i18n": {
-        "locales": {
-          "en": {
-            "translation": "src/messages.en.xtb",
-            "baseHref": ""
-          }
-        }
-      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -112,12 +104,6 @@
             "production-en": {
               "browserTarget": "book-monkey:build:production-en"
             }
-          }
-        },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
-          "options": {
-            "browserTarget": "book-monkey:build"
           }
         },
         "test": {
